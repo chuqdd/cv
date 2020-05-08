@@ -1,0 +1,163 @@
+/******************** tag selectors ********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1em;
+}
+
+h1 {
+  /* font-size: 500%; */
+  font-size: 5rem;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #581c0c;
+}
+
+h2 {
+  font-size: 1.5rem;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Merriweather', serif;
+  width: 60%;
+  margin: 20px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/******************* class selector ********************/
+.top-container {
+  background-color: #fcf8e8;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.middle-container {
+  background-color: #fcf8e8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bottom-container {
+  background-color: #fcf8e8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-list {
+  text-align: left;
+}
+
+.electronic-component1 {
+  /* position: absolute; */
+  /* display: inline-block; */
+  position: absolute;
+  width: 100px;
+  /* margin-left: 300px; */
+  top: 50px;
+  right: 200px;
+  opacity: 10%;
+}
+
+.electronic-component2 {
+  position: absolute;
+  width: 100px;
+  left: 250px;
+  top: 150px;
+  opacity: 10%;
+}
+
+.electronic-component3 {
+  position: absolute;
+  width: 100px;
+  left: 390px;
+  top: 25px;
+  opacity: 10%;
+  transform: rotate(290deg);
+}
+
+.electronic-component4 {
+  position: absolute;
+  width: 100px;
+  right: 400px;
+  top: 130px;
+  opacity: 10%;
+  transform: rotate(345deg);
+}
+
+.electronic-component5 {
+  position: absolute;
+  width: 100px;
+  right: 230px;
+  top: 280px;
+  opacity: 10%;
+  transform: rotate(345deg);
+}
+
+.engineering-tool1 {
+  position: absolute;
+  width: 100px;
+  left: 430px;
+  top: 520px;
+  opacity: 10%;
+  transform: rotate(70deg);
+}
+
+.engineering-tool2 {
+  position: absolute;
+  width: 100px;
+  right: 130px;
+  top: 420px;
+  opacity: 10%;
+  transform: rotate(300deg);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.profile-picture {
+  height: 230px;
+  border-radius: 100%;
+}
+
+.hardware-icon {
+  width: 100px;
+}
+
+.firmware-icon {
+  width: 100px;
+}
+
+.test-icon {
+  width: 100px;
+}
+
+.example-icon {
+  width: 100px;
+}
+
+.resume-icon {
+  width: 100px;
+}
+
+.skill-icon-attribute {
+  display: none;
+}
+
+/* .ts13102_relayReplacement0 {
+  width: 35%;
+  float:bottom;
+}
+
+.ts13102_relayReplacement1 {
+  width: 40%;
+
+} */
