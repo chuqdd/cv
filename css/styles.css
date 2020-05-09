@@ -29,13 +29,13 @@ h3 {
 }
 
 a {
-  color: #1f4068;
+  color: #035aa6;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00a1ab;
+  color: #43d8c9;
 }
 
 /******************* class selector ********************/
@@ -207,6 +207,7 @@ a:hover {
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  color: #ffffff;
   text-decoration: none;
 }
 
