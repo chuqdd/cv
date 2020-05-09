@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 1.1em;
+  color: #40514E;
 }
 
 h1 {
@@ -20,28 +21,40 @@ h2 {
   font-family: 'Merriweather', serif;
   width: 60%;
   margin: 20px auto;
+  color: #7d5a5a;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: #1f4068;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a1ab;
+}
+
 /******************* class selector ********************/
 .top-container {
-  background-color: #fcf8e8;
+  /* background-color: #fcf8e8; */
+  background-color: #fdfdfd;
   position: relative;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .middle-container {
-  background-color: #fcf8e8;
+  background-color: #f6f6f6;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .bottom-container {
-  background-color: #fcf8e8;
+  background-color: #f0f0f0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -50,12 +63,12 @@ h3 {
   width: 60%;
   margin: 0 auto 100px auto;
   text-align: left;
-
   clear: both;
 }
 
 .skill-list {
   text-align: left;
+  line-height: 1.5;
 }
 
 .electronic-component1 {
@@ -66,7 +79,7 @@ h3 {
   /* margin-left: 300px; */
   top: 50px;
   right: 200px;
-  opacity: 10%;
+  opacity: 0.1;
 }
 
 .electronic-component2 {
@@ -74,7 +87,7 @@ h3 {
   width: 100px;
   left: 250px;
   top: 150px;
-  opacity: 10%;
+  opacity: 0.1;
 }
 
 .electronic-component3 {
@@ -82,7 +95,7 @@ h3 {
   width: 100px;
   left: 390px;
   top: 25px;
-  opacity: 10%;
+  opacity: 0.1;
   transform: rotate(290deg);
 }
 
@@ -91,7 +104,7 @@ h3 {
   width: 100px;
   right: 400px;
   top: 130px;
-  opacity: 10%;
+  opacity: 0.1;
   transform: rotate(345deg);
 }
 
@@ -100,7 +113,7 @@ h3 {
   width: 100px;
   right: 230px;
   top: 280px;
-  opacity: 10%;
+  opacity: 0.1;
   transform: rotate(345deg);
 }
 
@@ -108,8 +121,8 @@ h3 {
   position: absolute;
   width: 100px;
   left: 430px;
-  top: 520px;
-  opacity: 10%;
+  top: 480px;
+  opacity: 0.1;
   transform: rotate(70deg);
 }
 
@@ -118,7 +131,7 @@ h3 {
   width: 100px;
   right: 130px;
   top: 420px;
-  opacity: 10%;
+  opacity: 0.1;
   transform: rotate(300deg);
 }
 
@@ -133,35 +146,35 @@ h3 {
 
 .hardware-icon {
   /* width: 100px; */
-  width: 15%;
+  width: 20%;
   float: left;
   margin-right: 50px;
 }
 
 .firmware-icon {
   /* width: 100px; */
-  width: 15%;
+  width: 20%;
   float: left;
   margin-right: 50px;
 }
 
 .test-icon {
   /* width: 100px; */
-  width: 15%;
+  width: 20%;
   float: left;
   margin-right: 50px;
 }
 
 .example-icon {
   /* width: 100px; */
-  width: 15%;
+  width: 20%;
   float: left;
   margin-right: 50px;
 }
 
 .resume-icon {
   /* width: 100px; */
-  width: 15%;
+  width: 20%;
   float: right;
   margin-right: 50px;
 }
@@ -170,12 +183,35 @@ h3 {
   display: none;
 }
 
-/* .ts13102_relayReplacement0 {
-  width: 35%;
-  float:bottom;
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.ts13102_relayReplacement1 {
-  width: 40%;
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
 
-} */
+.copyright {
+  color: #1f4068;
+  font-size: 0.75rem;
+  padding: 7px 0;
+}
