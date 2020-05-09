@@ -47,14 +47,14 @@ h3 {
 }
 
 .skill-row {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.skill-list {
+  width: 60%;
+  margin: 0 auto 100px auto;
   text-align: left;
 }
 
+/* .skill-list {
+  text-align: left;
+} */
 .electronic-component1 {
   /* position: absolute; */
   /* display: inline-block; */
@@ -129,23 +129,38 @@ h3 {
 }
 
 .hardware-icon {
-  width: 100px;
+  /* width: 100px; */
+  width: 20%;
+  float: left;
+  margin-right: 50px;
 }
 
 .firmware-icon {
-  width: 100px;
+  /* width: 100px; */
+  width: 20%;
+  float: left;
+  margin-right: 50px;
 }
 
 .test-icon {
-  width: 100px;
+  /* width: 100px; */
+  width: 20%;
+  float: left;
+  margin-right: 50px;
 }
 
 .example-icon {
-  width: 100px;
+  /* width: 100px; */
+  width: 20%;
+  float: left;
+  margin-right: 50px;
 }
 
 .resume-icon {
-  width: 100px;
+  /* width: 100px; */
+  width: 20%;
+  float: left;
+  margin-right: 50px;
 }
 
 .skill-icon-attribute {
