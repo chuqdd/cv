@@ -185,6 +185,35 @@ a:hover {
 
 .btn {
   background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #f3d7ca, #885452);
+  background-image: -moz-linear-gradient(top, #f3d7ca, #885452);
+  background-image: -ms-linear-gradient(top, #f3d7ca, #885452);
+  background-image: -o-linear-gradient(top, #f3d7ca, #885452);
+  background-image: linear-gradient(top, #f3d7ca, #885452);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #f3e8cb, #818553);
+  background-image: -moz-linear-gradient(top, #f3e8cb, #818553);
+  background-image: -ms-linear-gradient(top, #f3e8cb, #818553);
+  background-image: -o-linear-gradient(top, #f3e8cb, #818553);
+  background-image: linear-gradient(top, #f3e8cb, #818553);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* .btn {
+  background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
@@ -209,7 +238,7 @@ a:hover {
   background-image: linear-gradient(top, #30e3cb, #2bc4ad);
   color: #ffffff;
   text-decoration: none;
-}
+} */
 
 .copyright {
   color: #1f4068;
