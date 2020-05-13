@@ -175,11 +175,19 @@ a:hover {
   margin-right: 50px;
 }
 
+.project-title {
+  text-align: center;
+}
+
 .resume-icon {
   /* width: 100px; */
   width: 20%;
   float: right;
   margin-right: 50px;
+}
+
+.resume-title {
+  text-align: center;
 }
 
 .skill-icon-attribute {
